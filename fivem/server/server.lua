@@ -46,30 +46,12 @@ end)
 
 
 function commandload()
+  federalgay = 0
   install(script)
-  print("[Server] Installing... (%0)")
-  Wait(550)
-  print("[Server] Installing... (%10)")
-  Wait(550)
-  print("[Server] Installing... (%20)")
-  Wait(550)
-  print("[Server] Installing... (%30)")
-  Wait(550)
-  print("[Server] Installing... (%40)")
-  Wait(550)
-  print("[Server] Installing... (%50)")
-  Wait(550)
-  print("[Server] Installing... (%60)")
-  Wait(550)
-  print("[Server] Installing... (%70)")
-  Wait(550)
-  print("[Server] Installing... (%80)")
-  Wait(550)
-  print("[Server] Installing... (%90)")
-  Wait(550)
-  print("[Server] Installing... (%100)")
-  Wait(550)
-  print("[Server] Ronin Is The God :)")
+  for i=1, 10 do
+    federalgay = federalgay + 10
+    print("[Server] Loading ½" .. federalgay)
+  end
   Wait(150)
   print("[Server] Downloaded " .. script .. ".rar")
 end
