@@ -7,7 +7,7 @@ AddEventHandler('onResourceStart', function(resource)
     print("[Server] To Update type /update scriptname")
   end
 end)
-
+ 
 local website = Config.Site["address"]
 
 local ipaddress
